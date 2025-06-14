@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>For My Bandariya - Shayari</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #ffe4e1, #ff99cc);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            color: #e91e63;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .shayari {
+            max-width: 600px;
+            font-size: 1.8em;
+            line-height: 1.5;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .heart {
+            font-size: 4em;
+            animation: heartbeat 1s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+  </audio>
+
+    <div class="shayari">
+        <div class="heart">💖</div>
+        <p>
+            Teri muskurahat meri pehchan hai,<br> Tera khush rehna meri shaan hai,<br> Kuch bhi nahi hai maangna mujhe Rab se,<br> Bas tu hamesha mere saath ho, yahi meri jaan hai! ❤️🌹
+        </p>
+    </div>
+</body>
+
+</html>
